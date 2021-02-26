@@ -1,0 +1,122 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto
+}
+ul {
+    padding: 0px!important;
+}
+.menu-principal
+.header-1 {
+    width: 100%;
+    background-color: rgba(211, 211, 211, 0.753);
+    height: 110px;
+}
+main {
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+.logo {
+float: left;
+    padding: 20px;
+    width: 60%;
+    margin-left: 150px;
+    margin-right: auto;
+    padding-top: 7px;
+}
+.redes-sociais ul li {
+    display: inline-block;
+    float: none;
+    list-style:none;
+    margin-left: 13px;
+    padding-top: 7px;
+}
+.redes-sociais {
+    width: 20%;
+    float: right;
+}
+.header-2 {
+    background-color: whitesmoke;
+    width: 100%;
+    margin: -8px auto;
+    padding: 5px;
+}
+.menu-urls{
+    height: 62px;
+    border-bottom: 3px solid;
+}
+.menu ul li {
+    display: inline-block;
+    margin-left: 50px;
+    color: black;
+    height: 49px;
+}
+.menu ul li:hover {
+    border-bottom: 4px solid rgb(111, 214, 255);
+}
+.menu ul li a:hover {
+    color: rgb(111, 214, 255);
+}
+.menu ul li a {
+    color: black; 
+    text-decoration: none;
+    font-size: 30px;
+    padding-right: 5px;
+    text-align: left;
+}
+.menu {
+    width: 75%;
+    float: left;
+}
+.busca {
+    text-align: center;
+    width: 15%;
+    float: right;
+}
+.busca input {
+    background-image: url('../img/busca.png') ;
+    background-repeat: no-repeat;
+    background-position: 96%;
+    background-size: 30%;
+    border:1px solid black;
+    margin-top: 15px;
+    height: 36px;
+    padding: 15px;
+    width: 190px;
+}
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    height: 37px;
+    width: 113px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../img/seta_Easy-Resize.com-removebg-preview.png');
+    top: 37%;
+    left: 2%;
+    border: transparent;
+}
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    height: 52px;
+    width: 160px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../img/seta-direita_Easy-Resize.com-removebg-preview.png');
+    top: 35%;
+    right: 2%;
+    border: transparent;
+}
+
+.slider-principal {
+    width: 100%;
+}
